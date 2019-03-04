@@ -9,6 +9,6 @@ import java.time.LocalDateTime;
 public class HelloController {
     @RequestMapping("/")
     public String index() {
-        return "Hello! Greetings from Belgium (at " + LocalDateTime.now() + ")...";
+        return "Hello! Greetings from Belgium... (at " + LocalDateTime.now() + ")...";
     }
 }
